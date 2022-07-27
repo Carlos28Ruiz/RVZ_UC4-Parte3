@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+}
+body{
+   /*  font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    background-color: rgb(167, 182, 196);
+}
+header{
+    width: 1212px;
+    height: 140px;
+    background-color: #5e7b9e;
+    margin: 0 auto;
+}
+#logotipo {
+    width: 35%;
+    height: 130px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#logotipo img{
+    display: block;
+    width: 60px;
+    float: left;
+    margin-top: 20px;
+}
+#logotipo h1{
+    display: block;
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    color: #62c6ff;
+}
+
+
