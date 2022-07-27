@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class estudiante(models.Model):
+class Estudiante(models.Model):
     codigo = models.IntegerField()
     dni = models.IntegerField()
     nombre = models.CharField(max_length=150)

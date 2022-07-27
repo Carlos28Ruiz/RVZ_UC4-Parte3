@@ -19,7 +19,8 @@ from miapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('',views.index, name = "index"),
+    path('',views.integrantes, name = "integrantes"),
     path('integrantes/',views.integrantes, name = "integrantes"),
     path('saludo/',views.saludo, name = "saludo"),
+    path('crear_estudiante/',views.crear_estudiante,name="crear_estudiante"),
 ]
